@@ -1,0 +1,91 @@
+/* Uses google fonts in the body */
+
+body {font-family:'Lora', serif;}
+
+/* Nav styling */
+
+.nav {
+    text-align:center;
+}
+
+.nav li {
+    list-style-type:none;
+    margin:0;
+    padding:25px;
+    display:inline;
+    width: 60 px;
+    font-weight: bold;
+}
+    
+.nav ul a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.nav ul {
+    background-color:#d60660;
+    padding:15px;
+}
+
+.link:hover 
+    {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;}
+
+/* Header styling */
+
+.header{
+    text-align:center;
+    font-family:'Shadows Into Light', cursive;
+    font-size:30px;
+    padding:0px;
+    margin:0px;
+}
+
+.header h1 {
+    margin:0px;
+}
+
+/* Lists galore */
+
+.adventure_list {
+    width:75%;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.foodie_list {
+    width: 50%;
+    float:left;
+    margin-left:100px;
+}
+
+.budget_advice {
+    width: 50%;
+    float:left;
+    margin-left:100px;
+}
+
+/* Travel images */
+
+.budget_image {
+    display:inline-block;
+    margin-left:100px;
+}
+
+.foodie_images {
+    display:inline-block;
+    margin-left:100px;
+}
+
+.free_body {
+    background-image: url("images/sky.jpg");
+    background-size: cover;
+}
+
+/* Videos are awesome */
+
+#foodie_video {
+    text-align:center;
+}
